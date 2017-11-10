@@ -1,0 +1,448 @@
+@charset "utf-8";
+
+body {
+
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+
+	padding: 0;
+
+	margin: 0;
+
+}
+
+#bg_wrap {
+
+width: 900px;
+
+margin-left: auto;
+
+margin-right: auto;
+
+padding: 0;
+
+}
+
+
+
+
+
+h1 {
+
+	font-size: x-large;
+
+	background-color: navy;
+
+	color: white;
+
+	padding-top: 2em;
+
+	padding-bottom: .2em;
+
+	padding-left: .4em;
+
+	margin: 0;
+
+	}
+
+
+
+#tagline p {
+
+	font-style: italic;
+
+	font-family: Georgia, Times, serif;
+
+	background-color: #bed8f3;
+
+	border-top: 3px solid #7da5d8;
+
+	border-bottom: 3px solid #7da5d8;
+
+	padding-left: .4em;
+
+	margin: 0;
+
+}
+
+
+
+caption {
+
+padding: 5px 0;
+
+text-align:left;
+
+text-transform:uppercase;
+
+font-size:75%;
+
+}
+
+
+
+
+
+
+
+td {
+
+padding-left: .4em;
+
+padding-top: .5em;
+
+padding-right: .2em;
+
+font-size: 75%;
+
+}
+
+
+
+div#login_form ul, div#login_form li {
+
+margin:0 10px 4px 10px;
+
+list-style-type: none;
+
+}
+
+
+
+/* Added Oct 20th 09*?
+
+/* Makes a nice form input box using fieldsets */
+
+fieldset input {width : 60%; border:1px solid #0066FF;}
+
+fieldset input:hover { border-color: #CCCCCC;}
+
+fieldset input:active, input:focus { border-color: #900; background-color: #CCCCCC;}
+
+label, label span { display: block; padding-bottom: .25em; }
+
+label { float: left; width: 100%; }
+
+label span { padding-right: .4em; float: left; width: 35%; text-align: right; }
+
+
+
+fieldset {
+
+font-size: 70%; 
+
+width:300px; margin-bottom : 10px;
+
+padding:5px;
+
+border:1px solid #0000FF;
+
+overflow:hidden }
+
+
+
+fieldset:hover { border-color:#CC0066;}
+
+
+
+/* Submit button make it pretty */ 
+
+form div input {padding:0 .25em; 
+
+background-color:#6699FF;
+
+border:2px double #0000FF;
+
+border-top-color: #0066FF;
+
+font:bold 92%  Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+
+color: #000000;
+
+/** text-transform:uppercase; **/
+
+}
+
+
+
+
+
+
+
+		.green{
+
+		    width:100%;
+
+		    background-color:#95ca78;
+
+		    border-bottom:solid 1px #8AA000;
+
+		    padding:10px 0px 10px 5px;
+
+		    margin-bottom: 8px;
+
+		    font-weight:bold;
+
+		    text-align:left;
+
+		}
+
+		.red{
+
+		    color:#E8514A;
+
+		    font-weight:bold;
+
+		}	
+
+		
+
+		#name {
+
+		    width:60%;
+
+		    padding: 6px;
+
+		    font: 85px "Lucida Grande",Arial,sans-serif;
+
+			}
+
+
+
+#header, #content, #register_form, #navcontainer, #right_side_content {
+
+	position: absolute;
+
+	}
+
+#header {
+
+		width: 900px;
+
+		}
+
+
+
+#content {
+
+	top: 132px;
+
+	width: 600px;
+
+	margin: 0px;
+
+	}
+
+
+
+#content a {
+
+	/* background-color: #369; */
+
+	color: black;
+
+	/* font-weight:bold; */
+
+}
+
+#content a:hover {
+
+	/* background-color: #369; */
+
+	color: white;
+
+	/* font-weight:bold; */
+
+}
+
+
+
+#content table, #content th, #content td {
+
+	border:0px solid #2A1FAA;
+
+	border-collapse: collapse;
+
+	margin: 0px;
+
+	}
+
+
+
+
+
+#content th {
+
+	color: white;
+
+	font-size: 90%;
+
+	text-transform: uppercase;
+
+	text-align: left;
+
+	background-color: #000099;
+
+}
+
+
+
+#content tbody tr {
+
+/* background: #2A5FAA;
+
+color: #fff; */
+
+background: white;
+
+color: black;
+
+}
+
+#content tbody tr:hover {
+
+background: #99c;
+
+color: white;
+
+}
+
+
+
+#content ul { 
+
+		list-style-type: none;
+
+		width: 600;
+
+		margin: 0;
+
+		padding: 0;
+
+		border-top: 20px solid #90305c;
+
+	}
+
+#content li {
+
+	position: relative;
+
+	font-family: arial, helvetica, sans-serif;
+
+	font-size: 80%;
+
+	float: left;
+
+	width: 90px;
+
+	padding: 2em 0;
+
+		}
+		
+#content p {
+font-size: 40%;
+}		
+
+
+
+#register_form {
+
+	top: 150px;
+
+	float: right;
+
+	margin: 0px;
+
+	}
+
+
+
+#navcontainer {
+
+		top: 90px;
+
+		}
+
+#navcontainer ul
+
+{
+
+padding-left: 0;
+
+margin-left: 0;
+
+background-color: black;
+
+color: White;
+
+float: left;
+
+width: 900px;
+
+font-family: arial, helvetica, sans-serif;
+
+}
+
+
+
+#navcontainer ul li { display: inline; }
+
+
+
+#navcontainer ul li a
+
+{
+
+padding: 0.2em 1em;
+
+background-color: black;
+
+color: White;
+
+text-decoration: none;
+
+float: left;
+
+border-right: 1px solid #fff;
+
+}
+
+
+
+#navcontainer ul li a:hover
+
+{
+
+background-color: #369;
+
+color: white;
+
+}
+
+
+
+
+
+
+
+#right_side_content {
+
+	width: 200px;
+
+	top: 160px;
+
+	margin-left: 620px;
+
+	font-size: .7em;
+
+	font-family: arial, helvetica, sans-serif;
+
+	}
+
+	
+
+
+
+
+
+
+

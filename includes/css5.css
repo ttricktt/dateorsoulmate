@@ -1,0 +1,219 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+#bg_wrap {
+background-color: #FFFFFF;
+width: 800px;
+margin-left: auto;
+margin-right: auto;
+padding: 0;
+}
+h1 {
+	font-size: x-large;
+	background: #fff url(../images/JPR_0265.4.jpg) no-repeat right;
+	color: #003B59;
+	padding-top: 2em;
+	padding-bottom: 0.2em;
+	padding-left: 0.4em;
+	padding-right: 1em;
+	margin: 0;
+	border: solid 1px;
+}
+h2 {
+	font-size: 75%;
+	background-color: #00996D;
+	color: white;
+	padding-top: 1em;
+	padding-bottom: 0.2em;
+	padding-left: 0.4em;
+	margin: 0;
+}
+.tagline {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #0000FF;
+	background-color: #99FFFF;
+	padding-left: 0.4em;
+	margin: 0;
+	font-weight: normal;
+	border: #000099 solid 1px;
+}
+#content {
+	margin: 0px;
+	margin-top: .5em;
+}
+#content ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#content li {
+	font-family: arial, helvetica, sans-serif;
+	background-color: #fff;
+	border: solid 1px #006666;
+	font-size: 80%;
+	float: left;
+	width: 90px;
+	height: 120px;
+	padding: 0.5em;
+	margin: 1px;
+	overflow: hidden;
+}
+#content a {
+	text-decoration: none;
+	color: #006699;
+	padding-top: .5em;
+}
+#navcontainer ul
+{
+	padding-left: 0;
+	margin-left: 0;
+	background-color: #0099FF;
+	color: #FFFFFF;
+	float: left;
+	width: 798px;
+	font-family: arial, helvetica, sans-serif;
+	font-weight: normal;
+	border: solid 1px #000099;
+}
+#navcontainer ul li { 
+	display: inline;
+}
+#navcontainer ul li a {
+	padding: 0.2em 1em;
+	background-color: #0099FF;
+	color: #0000FF;
+	text-decoration: none;
+	float: left;
+	border-right: 1px solid #fff;
+}
+#navcontainer ul li a:hover {
+	background-color: #a0f06c;
+	color: #000000;
+}
+#description {
+	width: 800px;
+	margin: 2px;
+	font-size: 80%;
+	color: #666666;
+	font-weight: normal;
+	border: 1px solid #0080C0;
+	padding: 0.3em;
+}
+table.user_description {
+	border-collapse: collapse;
+}
+table.user_description tr, table.user_description td {
+	padding-bottom: 4px;
+	padding-left: 4px;
+	padding-right: 20px;
+	padding-top: 4px;
+	border: 1px solid #885880;
+}
+fieldset {
+	font-size: 70%; 
+	margin-bottom: .25em;
+	border: 1px solid #0000FF;
+	overflow: hidden;
+}
+fieldset input {width : 60%; border:1px solid #0066FF;}
+fieldset input:hover { border-color: #CCCCCC;}
+fieldset input:active, input:focus {
+	border-color: #0066FF;
+	background-color: #CCCCCC;
+}
+/*label, label span { display: block; padding-bottom: .25em; }
+label { float: left; width: 100%; }
+label span { padding-right: .4em; float: left; width: 35%; text-align: right; color: navy; }
+label select { border-color: #0066FF; }
+*/
+fieldset select:hover { border-color: #CCCCCC;}
+
+form.member legend {
+	font-weight: bold;
+	font-size: 120%;
+	color: navy;
+	padding: .25em;
+}
+div#wrapper {
+	height: auto;
+	width: 600px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	border: 2px solid #999;
+	background-color: #9BD1EE;
+}
+div#wrapper h4 {
+	margin-left: 20px;
+	font-size: .75em;
+	width: 460px;
+	color: #666;
+}
+div#wrapper h3 {
+	margin-left: 20px;
+	margin-top: 0px;
+	padding-bottom: 7px;
+	width: 460px;
+	color: #666;
+	border-bottom-width: 2px;
+	border-bottom-color: #fff;
+}
+div#wrapper div#inner-wrapper {
+	padding: 20px;	
+}
+div#wrapper div#inner-wrapper form#feedback div.inputs {
+	padding: 10px;
+	color: #666;
+}
+div#wrapper div#inner-wrapper form#feedback div.inputs textarea#message {
+	height: 50px;	
+}
+div#wrapper div#inner-wrapper form#feedback div.button {
+	padding: 10px;
+	width: 60px;
+	margin: 15px auto;
+}
+div#wrapper div#inner-wrapper form#feedback div#response {	
+	color: #333;
+	border: 1px solid #404040;
+	width: 360px;	
+	margin: 0 auto 20px auto;
+	height: auto;
+	padding: 10px 10px 10px 70px;
+	min-height: 45px;
+}
+div#wrapper div#inner-wrapper form#feedback div#response p {
+	margin: 0;
+	padding: 0;
+}
+.clear {
+	clear: both;
+}
+.error {	
+	background: #FF9F9F url(error.png) no-repeat 5px 10px;						
+}
+.success {
+	background: #B8F5B1 url(icon_ok.png) no-repeat 5px 10px;
+}
+.processing {
+	background: #DED5AB url(ajax-loader.gif) no-repeat 5px 10px;	
+}
+
+.greenBold {color: #3040d0; font-weight: bold;}
+.red {color: #FF0000;}
+
+.imgborder {
+	border: 3px solid #3040d0;
+}
+.float_right {
+	float: right;
+}
+.font80 {
+font-size: 80%;
+}
+

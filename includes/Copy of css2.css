@@ -1,0 +1,389 @@
+@charset "utf-8";
+body {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	
+	padding: 0;
+	margin: 0;
+}
+#bg_wrap {
+background-color: #FFFFFF;
+width: 800px;
+margin-left: auto;
+margin-right: auto;
+padding: 0;
+}
+
+
+h1 {
+	font-size: x-large;
+	background: #fff url(../images/JPR_0265.4.jpg) no-repeat right;
+	color: #003B59;
+	padding-top: 2em;
+	padding-bottom: 0.2em;
+	padding-left: 0.4em;
+	padding-right: 1em;
+	margin: 0;
+	border: solid 1px;
+	}
+h2 {
+	font-size: 75%;
+	background-color: #00996D;
+	color: white;
+	padding-top: 1em;
+	padding-bottom: 0.2em;
+	padding-left: 0.4em;
+	margin: 0;
+	}
+.bold {
+font-weight: bold; }
+	
+.imgborder {
+	border: 1px solid #000000;
+	}
+
+#tagline p {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #0000FF;
+	background-color: #99FFFF;
+	padding-left: 0.4em;
+	margin: 0;
+	font-weight: normal;
+	border: #000099 solid 1px;
+}
+
+caption {
+padding: 5px 0;
+text-align:left;
+text-transform:uppercase;
+font-size:75%;
+}
+
+.registration {
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+}
+
+
+#read_my_message, #message_page, #header, #content, #register_form, #navcontainer, #right_side_content, #forms, #login_form {
+	position: absolute;
+		}
+	
+
+		
+	#right_side_content {
+	width: 280px;
+	top: 0px;
+	margin-top: 17px;
+	margin-left: 512px;
+	/*padding: 0px;*/
+	/*font-size: .7em;*/
+	}
+	
+#right_side_content_indexpage {
+	width: 280px;
+	top: 0px;
+	margin-top: 0px;
+	margin-left: 512px;
+	/*padding: 0px;*/
+	/*font-size: .7em;*/
+	}	
+	
+	#right_side_content fieldset  {
+		width: 200px;
+	}
+	
+		#right_side_content_indexpage fieldset  {
+		width: 200px;
+	}
+	
+	
+#header {
+		width: 800px;
+		}
+
+#content {
+	top: 132px;
+	width: 510px;
+	margin: 0px;
+	margin-top: .5em;
+	}
+
+#content a {
+	/* background-color: #369; */
+	color: black;
+	padding-top: .5em;	/* font-weight:bold; */
+}
+#content a:hover {
+	/* background-color: #369; */
+	color: #0066FF;	/* font-weight:bold; */
+}
+
+#content ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	}
+#content li {
+	/*position: relative;*/
+	font-family: arial, helvetica, sans-serif;
+	background-color: #fff;
+	border: solid 1px #FF930E;
+	font-size: 80%;
+	float: left;
+	width: 110px;
+	height: 140px;
+	padding: 0.5em;
+	margin: 1px;
+}
+
+#description {
+	width: 800px;
+	margin: 2px;
+	font-size: 80%;
+	color: #666666;
+	font-weight: normal;
+	border: 1px solid #0080C0;
+	padding: 0.3em;
+}
+
+
+
+.twitter {
+margin: 2px;
+font-size: 80%;
+border: 1px solid #0080C0;
+padding: .3em;
+}
+
+#navcontainer {
+	top: 90px;
+		}
+#navcontainer ul
+{
+	padding-left: 0;
+	margin-left: 0;
+	background-color: #0099FF;
+	color: #FFFFFF;
+	float: left;
+	width: 800px;
+	font-family: arial, helvetica, sans-serif;
+	font-weight: normal;
+	border: solid 1px #000099;
+}
+
+#navcontainer ul li { display: inline; }
+
+#navcontainer ul li a
+{
+	padding: 0.2em 1em;
+	background-color: #0099FF;
+	color: #0000FF;
+	text-decoration: none;
+	float: left;
+	border-right: 1px solid #fff;
+}
+
+#navcontainer ul li a:hover
+{
+	background-color: #a0f06c;
+	color: #000000;
+}
+
+#member_info {
+	font-size: 80%;
+	position: relative;
+	width: 280px;
+	top: 20px;
+	}
+
+#forms {
+	margin-left: 25%;
+	top: 150px;
+	} 
+
+.about {
+	color: #0066FF;
+	border-bottom: 1px solid #D4D4D4;
+	margin-bottom: 2px;
+	}
+	
+#login_form {
+	top: 150px;
+	padding: 5px;
+	}
+#login_form ul {
+	height: 50px;
+	}
+
+	
+/* Added Oct 20th 09*?
+/* Makes a nice form input box using fieldsets */
+fieldset {
+font-size: 70%; 
+width: 380px; margin-bottom: .25em;
+border: 1px solid #0000FF;
+overflow: hidden; }
+
+form.member legend {
+	font-weight: bold;
+	font-size: 120%;
+	color: navy;
+	padding: .25em;
+	}
+
+fieldset input {width : 60%; border:1px solid #0066FF;}
+fieldset input:hover { border-color: #CCCCCC;}
+fieldset input:active, input:focus { border-color: #900; background-color: #CCCCCC;}
+label, label span { display: block; padding-bottom: .25em; }
+label { float: left; width: 100%; }
+label span { padding-right: .4em; float: left; width: 35%; text-align: right; color: navy; }
+label select { border-color: #0066FF; }
+fieldset select:hover { border-color: #CCCCCC;}
+
+.text_forms {
+	padding-top: .75em;
+	width: 300px;
+	font-weight: bold;
+	}
+
+/* Submit button make it pretty */ 
+form div input {
+margin-bottom: .50em;
+padding:0 .25em;
+background-color: #6699FF;
+border:2px double #0000FF;
+border-top-color: #0066FF;
+font: bold 92%  Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+color: #000000; }
+/** text-transform:uppercase; **/
+
+
+
+		.green {
+		    width:100%;
+		    background-color:#95ca78;
+		    border-bottom:solid 1px #8AA000;
+		    padding:10px 0px 10px 5px;
+		    margin-bottom: 8px;
+		    font-weight:bold;
+		    text-align:left;
+		}
+		.red {
+	color:#FF0000;
+	font-weight:bold;
+			}
+.message_form {
+	width: 450px;
+	color: red;
+	font-size: 100%;
+}
+
+.subject_line {
+	margin: 0px;
+	padding: .25em;
+	color: blue;
+}
+
+#message_page {
+	top: 132px;
+	width: 535px;
+	margin: 0px;
+	}
+#message_page ul { 
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+
+#message_page li {
+	/*position: relative;*/
+	font-family: arial, helvetica, sans-serif;
+	background-color: #EAEAEA;
+	font-size: 80%;
+	/*float: left;
+	width: 110px;
+	height: 140px;*/
+	padding: .5em;
+	border: 2px solid blue;
+	margin: 2px;
+		}
+#message_page p {
+	margin: 0;
+	padding: .2em;
+	background-color: ##EAEAEA;
+	font-size: 80%;
+	}
+
+.message_from_width {
+	padding-right: 10px;
+}
+
+
+#read_my_message {
+	width: 360px;
+	top: 132px;
+	margin-left: 540px;
+	padding: 0px;
+	font-size: 85%;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #0033CC;
+	color: white;
+	font-weight: bold;
+	}
+#read_my_message ul{
+	display: inline; 
+	list-style-type: none;
+	margin: 0;
+	padding-top: 20px;
+	padding-left: 15px;
+}
+
+#read_my_message li {
+	margin: 5px;
+}
+
+.delete_checbox {
+	float: right;
+	}
+.float_right {
+	float: right;
+	}
+#bubble1 {
+	font-family: "Comic Sans MS";
+	position: relative;
+	left: 7px;
+	top: 43px;
+}
+#bubble2 {
+	font-family: "Comic Sans MS";
+	position: absolute;
+	left: 405px;
+	top: 103px;
+	width: 180px;
+}
+#bubble1 a {
+text-decoration: none;
+}
+
+#bubble3 {
+	font-family: "Comic Sans MS";
+	position: relative;
+	left: 7px;
+	top: 27px;
+}
+
+.holiday { 
+font-family: "Comic Sans MS";
+font-size: 110%;
+color:#FF0000;
+margin: 0px;
+padding-left: 2em; }
+
+
+	
+
+
+
+
+
+	

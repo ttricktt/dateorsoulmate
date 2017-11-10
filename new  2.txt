@@ -1,0 +1,46 @@
+  <li><a href=search.php?choose_userid=<?php echo urlencode($row[valid_id]); ?>></a>
+<?php 
+
+
+  $picture_sql = "select * from pictures
+ 				where user_id = '$row[valid_id]'";
+				//and file_name is not null";
+				$picture_result=mysql_query($picture_sql);
+	$picture=mysql_fetch_array($picture_result);
+	?>
+    
+	<?php if(($picture) && ($row[gender] <> $sel_seeking)) { ?>
+	
+	<a href=search.php?choose_userid=<?php echo urlencode($row[valid_id]); ?>
+	<img class="imgborder" src = imageresize2.php?image=pictures/<?php echo "$picture[file_name]"; ?>></a><br />
+	
+<?php
+	$gender_sql = "select * from male_female
+ 				where id = '$row[gender]'
+				
+				";
+	$gender_result=mysql_query($gender_sql);
+	$gender=mysql_fetch_array($gender_result);
+	  
+	  echo $gender[male_female]."<br >";
+	  echo $row[age]; ?>
+	  <a href=search.php?choose_userid=<?php echo urlencode($row[valid_id]); ?>><?php echo $row[username];?></a><br />
+<?php } //if(($picture) && ($row[gender] <> $sel_seeking)) ?>
+	
+	
+	  
+<?php 
+	  	
+	  
+	  //echo $row[valid_id] . "<br />";
+	  	
+	  } //while ($row = mysql_fetch_array($sel_zip)) 
+?>
+    </li>
+</ul>
+<?php
+   } //foreach ($zips as $key => $value)
+ 	$result = count($zipcodes);
+} //else
+$details = $z->get_zip_details($zip);
+ ?>
